@@ -26,7 +26,7 @@ const Dashboard = ({ layout, setLayout }) => {
         className="canvas"
         onDrop={handleDrop}
         style={{
-          border: isDropped ? "1px solid" : "none", 
+          border: isDropped ? "1px solid" : "none",
           width: "400px",
           margin: "auto",
         }}

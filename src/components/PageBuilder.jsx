@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import { DndContext } from "@dnd-kit/core";

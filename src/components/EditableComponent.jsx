@@ -1,5 +1,3 @@
-
-
 import React, { useState } from "react";
 
 const EditableComponent = ({ component, onUpdate }) => {
@@ -48,7 +46,7 @@ const EditableComponent = ({ component, onUpdate }) => {
               },
             })
           }
-          style={{ margin: "10px 0", width: "100%" }} 
+          style={{ margin: "10px 0", width: "100%" }}
         />
       )}
       {component.id === "checkbox" && (
@@ -62,7 +60,7 @@ const EditableComponent = ({ component, onUpdate }) => {
           type="text"
           value={content.replace(/<\/?[^>]+(>|$)/g, "")}
           onChange={handleChange}
-          style={{ margin: "10px 0", width: "50px" }} 
+          style={{ margin: "10px 0", width: "50px" }}
         />
       )}
     </div>

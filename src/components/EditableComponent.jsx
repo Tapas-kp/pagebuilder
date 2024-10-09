@@ -31,7 +31,7 @@ const EditableComponent = ({ component, onUpdate }) => {
             type="text"
             value={content.replace(/<\/?[^>]+(>|$)/g, "")}
             onChange={handleChange}
-            style={{ flex: 1 }} // Allow input to take remaining space
+            style={{ flex: 1 }}
           />
         </div>
       )}
@@ -48,7 +48,7 @@ const EditableComponent = ({ component, onUpdate }) => {
               },
             })
           }
-          style={{ margin: "10px 0", width: "100%" }} // Styling for width
+          style={{ margin: "10px 0", width: "100%" }} 
         />
       )}
       {component.id === "checkbox" && (
@@ -62,7 +62,7 @@ const EditableComponent = ({ component, onUpdate }) => {
           type="text"
           value={content.replace(/<\/?[^>]+(>|$)/g, "")}
           onChange={handleChange}
-          style={{ margin: "10px 0", width: "50px" }} // Styling for width
+          style={{ margin: "10px 0", width: "50px" }} 
         />
       )}
     </div>

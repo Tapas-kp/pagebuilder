@@ -1,0 +1,52 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.builder-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.canvas {
+  flex: 1;
+  border: 2px dashed #000;
+  padding: 10px;
+  min-height: 400px;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  position: absolute;
+  right:0;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.controls>button{
+  background-color: aqua;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.draggable-item {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
